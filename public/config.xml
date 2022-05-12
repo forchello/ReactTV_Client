@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/tizen" version="0.2.1" viewmodes="maximized">
+    <tizen:application id="acuCcV09iL.tizen" package="acuCcV09iL" required_version="2.3"/>
+    <access origin="*" subdomains="true"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
+    <icon src="logo512.png"/>
+    <tizen:metadata key="http://samsung.com/tv/metadata/prelaunch.support" value="true"/>
+    <name>tizen</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:profile name="tv-samsung"/>
+    <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>
